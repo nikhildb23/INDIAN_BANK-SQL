@@ -16,10 +16,11 @@ DATABASE DESIGN:
 TABLES: 
 
 ACCOUNT MASTER 
+| FIELD  |  TYPE  |
+|--------|--------|
 
 
 |   COLUMN NAME   |     DATATYPE      |     REMARK      |
-
 |-----------------|-------------------|  PRIMARY KEY    |
 |  ACID           |     INT           |  NOT NULL       |
 |  NAME           |     VARCHAR(20)   |  NOT NULL       |
@@ -29,4 +30,4 @@ ACCOUNT MASTER
 |  DOO            |     DATETIME      |   NOT NULL      |
 |  CBALANCE       |     MONEY         |    NULL         |
 |  UNCBALANCE     |     MONEY         |     NULL        |
-|  STATUSS        |     CHAR(1)       |      O’ for ‘OPERATIVE’, ‘I’ for ‘INOPERATIVE’, ‘C’ for ‘CLOSED’; NOT NULL; DEFAULT value is ‘O’ (OPERATIVE) |
+|  STATUSS        |     CHAR(1)       |      O’         |
