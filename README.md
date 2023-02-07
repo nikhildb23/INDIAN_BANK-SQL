@@ -17,7 +17,9 @@ TABLES:
 
 ACCOUNT MASTER 
 
+
 |   COLUMN NAME   |     DATATYPE      |     REMARK      |
+
 |-----------------|-------------------|  PRIMARY KEY    |
 |  ACID           |     INT           |  NOT NULL       |
 |  NAME           |     VARCHAR(20)   |  NOT NULL       |
