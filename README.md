@@ -28,4 +28,4 @@ ACCOUNT MASTER
 |  DOO            |     DATETIME      |   NOT NULL      |
 |  CBALANCE       |     MONEY         |    NULL         |
 |  UNCBALANCE     |     MONEY         |     NULL        |
-|  STATUSS        |     CHAR(1)       |      O’         |
+|  STATUSS        |     CHAR(1)       |  O’ for ‘OPERATIVE’, ‘I’ for ‘INOPERATIVE’, ‘C’ for ‘CLOSED’; NOT NULL; DEFAULT value is ‘O’ (OPERATIVE)| 
