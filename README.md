@@ -71,3 +71,18 @@ USERMASTER
 | DESIGNATION     |   CHAR(1)         |  M’ for ‘MANAGER’, ‘T’ for ‘TELLER’, ‘C’ for CLERK NOT NULL |
 
 
+TABLE 6
+
+TRANSACTION MASTER
+
+|   COLUMN NAME   |     DATATYPE      |     REMARK                    |
+|-----------------|-------------------|-------------------------------| 
+| TRANNO          |     INT           | PK IDENTITY SEED 1 INCREMENT 1|
+| DOT             |   DATETIME        |   NOT NULL                    |
+| ACID            |   INT             | FK NOT NULL                   |
+|  BRID           | CHAR(3)           | FK NOT NULL                   |
+|  TXN_TYPE       |   CHAR(3)         |CW’ for ‘CASH WITHDRAWAL’, ‘CD’ for ‘CASH DEPOSIT’, ‘CQD’ for ‘CHEQUE DEPOSIT’; NOT NULL |
+| CHQ_NO          |  INT              |   NULL                        | 
+|CHQ_DATE         | SMALL datetime    |  null                         |
+|TXN_ACCOUNT      |  money            |   not null                    |
+| userid          |  int              |     fk not null               |
