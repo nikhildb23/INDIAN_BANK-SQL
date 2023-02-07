@@ -86,3 +86,13 @@ TRANSACTION MASTER
 |CHQ_DATE         | SMALL datetime    |  null                         |
 |TXN_ACCOUNT      |  money            |   not null                    |
 | userid          |  int              |     fk not null               |
+
+
+I. BUSINESS INTEGRITY RULES (PK, UK, FK, CHECK CONSTRAINTS & TRIGGERS) 
+
+1 . Account ID, Branch ID, Product ID and Region ID fields should be UNIQUE 
+
+```
+Question 1
+```
+Date of Transaction (DOT) and Date of Opening (DOO) should be the  current date 
