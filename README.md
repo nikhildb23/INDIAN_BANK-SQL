@@ -29,3 +29,45 @@ ACCOUNT MASTER
 |  CBALANCE       |     MONEY         |    NULL         |
 |  UNCBALANCE     |     MONEY         |     NULL        |
 |  STATUSS        |     CHAR(1)       |  O’ for ‘OPERATIVE’, ‘I’ for ‘INOPERATIVE’, ‘C’ for ‘CLOSED’; NOT NULL; DEFAULT value is ‘O’ (OPERATIVE)| 
+
+
+TABLE 2
+
+PRODUCT MASTER 
+
+|   COLUMN NAME   |     DATATYPE      |     REMARK      |
+|-----------------|-------------------|-----------------| 
+|   PID           |   CHAR(2)         |   PK            |
+|   PRODUCTNAME   |   VARCHAR(15)     |  NULL           |
+
+TABLE 3
+
+REGION MASTER
+
+
+|   COLUMN NAME   |     DATATYPE      |     REMARK      |
+|-----------------|-------------------|-----------------| 
+|     RID         |     INT           |   PK            |
+|   REGIONNAME    |     CHAR(6)       |   NOT NULL      |
+
+TABLE 4 
+
+BRANCH MASTER
+
+|   COLUMN NAME   |     DATATYPE      |     REMARK      |
+|-----------------|-------------------|-----------------| 
+|   BRID          |     CHAR(3)       |   PK            |
+| BRANCHNAME      | VARCHAR(30)       |   NOT NULL      |
+| BRANCHADRESS    | VARCHAR(50)       |   NOT NULL      |
+|   RID           | INT               |   FK NOT NULL   |
+
+TABLE 5 
+USERMASTER
+
+|   COLUMN NAME   |     DATATYPE      |     REMARK      |
+|-----------------|-------------------|-----------------| 
+| USERID          |   INT             |   PK            |
+| USERNAME        |   VARCHAR(30)     |   NOT NULL      |
+| DESIGNATION     |   CHAR(1)         |  M’ for ‘MANAGER’, ‘T’ for ‘TELLER’, ‘C’ for CLERK NOT NULL |
+
+
