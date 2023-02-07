@@ -4,14 +4,17 @@ INDIAN  BANK SQL PROJECT 1
 
 INDIAN BANK – CA SE STUDY
 DATABASE DESIGN: 
+
 1 . Create a DATABASE: INDIAN BANK 
 
 2 . Create a secondary filegroup and assign a couple of files to it.
 
 3 . Make the secondary filegroup as the default filegroup. 
-4 . Create the below tables. Place them in different filegroups if they are 
-to be used in joins. 
+
+4 . Create the below tables. Place them in different filegroups if they are  to be used in joins. 
+
 TABLES: 
+
 ACCOUNT MASTER 
 
 |   COLUMN NAME   |     DATATYPE      |     REMARK      |
