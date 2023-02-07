@@ -95,4 +95,4 @@ I. BUSINESS INTEGRITY RULES (PK, UK, FK, CHECK CONSTRAINTS & TRIGGERS)
 ```
 Question 1
 ```
-Date of Transaction (DOT) and Date of Opening (DOO) should be the  current date 
+1)  Date of Transaction (DOT) and Date of Opening (DOO) should be the  current date 
