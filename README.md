@@ -16,13 +16,11 @@ DATABASE DESIGN:
 TABLES: 
 
 ACCOUNT MASTER 
-| FIELD  |  TYPE  |
-|--------|--------|
 
 
 |   COLUMN NAME   |     DATATYPE      |     REMARK      |
-|-----------------|-------------------|  PRIMARY KEY    |
-|  ACID           |     INT           |  NOT NULL       |
+|-----------------|-------------------|-----------------| 
+|  ACID           |     INT           |  PK             |
 |  NAME           |     VARCHAR(20)   |  NOT NULL       |
 |  ADDRESS        |     VARCHAR(50)   |  NOT NULL       |
 |  BRID           |     CHAR(3)       |   NOT NULL FK   |
